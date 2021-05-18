@@ -1,5 +1,5 @@
 body{
-    background-image: url("./pexels-guillaume-meurice-1376753.jpg");
+    background-image: url("./pexels-guillaume-meurice-1376753.jpg"), radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(3,90,107,1) 100%);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
