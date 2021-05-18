@@ -1,0 +1,18 @@
+body{
+    background-image: url("./pexels-guillaume-meurice-1376753.jpg");
+    /*
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(3,90,107,0.8095238095238095) 100%);
+    */
+}
+
+.title{
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(0,212,255,1) 100%);
+    color: blueviolet;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.prominent{
+    background-color: rgba(0,212,255,0.6);
+}
