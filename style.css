@@ -1,9 +1,9 @@
 body{
-    background-image: url("./pexels-guillaume-meurice-1376753.jpg"), radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(3,90,107,1) 100%);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(3,90,107,1) 100%), url("./pexels-guillaume-meurice-1376753.jpg");
+    background-size: cover, cover;
+    background-position: center top, center;
+    background-repeat: no-repeat, no-repeat;
+
     /*
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(3,90,107,0.8095238095238095) 100%);
@@ -11,9 +11,9 @@ body{
 }
 
 .title{
-    background: rgb(255,255,255);
-    background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(0,212,255,1) 100%);
+    background: rgb(255,255,255), linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(0,212,255,1) 100%);
     color: blueviolet;
+    background-repeat: no-repeat, no-repeat;
     font-family: 'Pattaya', sans-serif;
 }
 
